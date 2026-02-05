@@ -19,7 +19,7 @@ function particion(array: number[], left: number, right: number) {
       [array[i], array[j]] = [array[j], array[i]];
     }
   }
-  [array[i + 1], array[right]] = [array[right], array[i + 1]] 
+  [array[i + 1], array[right]] = [array[right], array[i + 1]];
   return i + 1;
 }
 
